@@ -1,0 +1,45 @@
+	.footer.footer{
+		height: 100%;
+		background: darkblue;
+		position: relative;
+	}
+
+	.footer.footer.container{
+		display: grid;
+		grid-template-columns: repeat(4, 1fr);
+	}
+
+	.footer.footer.container >div{
+		flex-grow: 1;
+		flex-basis: 0;
+		padding: 3rem 0.9rem;
+	}
+
+	.footer h2{
+		color: #fff;
+	}
+	.footer p{
+		font-size: 15px;
+		color: bisque;
+	}
+
+	.redes-sociais{
+		color: #fff;
+		align-items: center;
+	}
+
+	.redes-sociais .fa-facebook-f{
+		height: 0px;
+		width: 17px;
+		font-size: 20px;
+		line-height: 40px;
+		margin: 0px 2px 0;
+		color: #87ceeb;
+		cursor: pointer;
+		transition: 0.5s;
+	}
+
+	.redes-sociais .fa-facebook-f: hover{
+		color: #fff;
+		transform: translate(-9px);
+	} 
